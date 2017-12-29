@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--declare-styleable name="CombineView"声明里面的自定义属性给哪个自定义view使用,,,name指定-->
+    <declare-styleable name="CombineView">
+        <!--name=""是自定义属性的名字   format表示的是属性的数据格式-->
+        <attr name="text" format="string"/>
+
+        <attr name="checked" format="boolean"/>
+
+    </declare-styleable>
+</resources>

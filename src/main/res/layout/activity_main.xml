@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:dash="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dash.a03_custom_view_02.MainActivity">
+
+    <!--<com.dash.a03_custom_view_02.view.CountView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+   <!-- <com.dash.a03_custom_view_02.view.CombineView
+        android:id="@+id/combine_view"
+        dash:text="是否选择这个美女"
+        dash:checked="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.dash.a03_custom_view_02.view.CombineView>-->
+
+    <!--<com.dash.a03_custom_view_02.view.CustomBanner
+        android:id="@+id/custom_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.dash.a03_custom_view_02.view.CustomBanner>-->
+
+    <com.dash.a03_custom_view_02.view.SwitchButton
+        android:id="@+id/switch_button"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
